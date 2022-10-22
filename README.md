@@ -12,6 +12,7 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
 
 ├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
+│
 ├── Data
 │   ├── Raw Data - OST Flights Info        <- The original data downloaded from the DOT Bureau of Transportation Website
 │       └── Jul_2021.csv
@@ -26,21 +27,20 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
         └── Apr_2022.csv
         └── May_2022.csv
         └── Jun_2022.csv
-│   ├── Interim        <- Concatenated and subsetted data
+│   ├── Interim        
 │       └── RDU_departures.csv
 │   └── Final            <- The final data used for modeling
 │       └── X_train2.csv
         └── X_test2.csv
         └── y_train2.csv
-        └── y_test2.csv
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│   ├── 1.0-dra-data-wrangling.ipynb
-│   ├── 2.0-dra-data-exploration.ipynb
-│   ├── 3.1-dra-indepth-analysis.ipynb
-│   └── 3.2-dra-indepth-analysis.ipynb 
+        └── y_test2.csv       
 │
-├── references          <- Data dictionaries, manuals, and all other explanatory materials.
+├── Jupyter Notebooks
+│   ├── Capstone 2 - Data Wrangling - RDU Departures.ipynb
+│   ├── Capstone 2 - Exploratory Data Analysis - RDU Departures.ipynb
+│   ├── Capstone 2 - Preprocessing - RDU Departures.ipynb
+│   └── Capstone 2 - Modeling - RDU Departures.ipynb 
 │
-├── reports             <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   ├── Final_Rep_NYC_WQ.pdf
-│   └── NYC_WQ_Pres.pptx 
+├── Reports
+│   ├── Capstone 2 - Final Report - RDU Departures.pdf
+│   └── Model Metrics.txt 
