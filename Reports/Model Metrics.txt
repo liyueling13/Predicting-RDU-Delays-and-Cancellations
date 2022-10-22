@@ -1,0 +1,9 @@
+Final Model:
+Random Forest Classifier 
+Parameters: {'n_estimators': 425, 'max_features': 'auto', 'criterion': 'gini'}
+Performance metrics:
+Accuracy: 0.89
+Precision: 0.89
+Recall: 0.89
+F1-Score: 0.89
+ROC-AUC score: 0.96
