@@ -19,7 +19,6 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
 ├── Data
 
 │   ├── Raw Data - OST Flights Info        <- The original data downloaded from the DOT Bureau of Transportation Website
-
 │       └── Jul_2021.csv
 
         └── Aug_2021.csv
