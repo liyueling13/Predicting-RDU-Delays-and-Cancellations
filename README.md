@@ -10,53 +10,34 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
 
 # Project Organization
 
-├── LICENSE
-
-├── README.md          <- The top-level README for developers using this project.
-
-│
-
-├── Data
-
-│   ├── Raw Data - OST Flights Info        <- The original data downloaded from the DOT Bureau of Transportation Website
-│       └── Jul_2021.csv
-
-        └── Aug_2021.csv
-        
-        └── Sept_2021.csv
-        
-        └── Oct_2021.csv
-        
-        └── Nov_2021.csv
-        
-        └── Dec_2021.csv
-        
-        └── Jan_2022.csv
-        
-        └── Feb_2022.csv
-        
-        └── Mar_2022.csv
-        
-        └── Apr_2022.csv
-        
-        └── May_2022.csv
-        
-        └── Jun_2022.csv
-        
-│   ├── Interim        
-│       └── RDU_departures.csv
-│   └── Final            <- The final data used for modeling
-│       └── X_train2.csv
-        └── X_test2.csv
-        └── y_train2.csv
-        └── y_test2.csv       
-│
-├── Jupyter Notebooks
-│   ├── Capstone 2 - Data Wrangling - RDU Departures.ipynb
-│   ├── Capstone 2 - Exploratory Data Analysis - RDU Departures.ipynb
-│   ├── Capstone 2 - Preprocessing - RDU Departures.ipynb
-│   └── Capstone 2 - Modeling - RDU Departures.ipynb 
-│
-├── Reports
-│   ├── Capstone 2 - Final Report - RDU Departures.pdf
-│   └── Model Metrics.txt 
+├── LICENSE<br/>
+├── README.md <- The top-level README for developers using this project.<br/>
+├── Data<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Raw Data  <- The original data downloaded from the DOT Bureau of Transportation Website<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Jul_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Aug_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Sept_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Oct_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Nov_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Dec_2021.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Jan_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Feb_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Mar_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Apr_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── May_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── Jun_2022.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Interim<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── RDU_departures.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; └── Final <- The final data used for modeling<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── X_train.csv  <- This was too large to upload but can be generated using the Preprocessing NB<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── X_test.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── y_train.csv<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   └── y_test.csv<br/>
+├── Jupyter Notebooks<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Capstone 2 - Data Wrangling - RDU Departures.ipynb<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Capstone 2 - Exploratory Data Analysis - RDU Departures.ipynb<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Capstone 2 - Preprocessing - RDU Departures.ipynb<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; └── Capstone 2 - Modeling - RDU Departures.ipynb<br/>
+├── Reports<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; ├── Capstone 2 - Final Report - RDU Departures.pdf<br/>
+&nbsp; &nbsp; &nbsp; &nbsp; └── Model Metrics.txt<br/>
