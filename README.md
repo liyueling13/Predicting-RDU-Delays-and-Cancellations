@@ -11,7 +11,9 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
 # Project Organization
 
 ├── LICENSE
+
 ├── README.md          <- The top-level README for developers using this project.
+
 │
 ├── Data
 │   ├── Raw Data - OST Flights Info        <- The original data downloaded from the DOT Bureau of Transportation Website
