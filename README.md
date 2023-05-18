@@ -15,20 +15,35 @@ Hopefully having this tool will ameliorate some of the unavoidable stress of fly
 ├── README.md          <- The top-level README for developers using this project.
 
 │
+
 ├── Data
+
 │   ├── Raw Data - OST Flights Info        <- The original data downloaded from the DOT Bureau of Transportation Website
+
 │       └── Jul_2021.csv
+
         └── Aug_2021.csv
+        
         └── Sept_2021.csv
+        
         └── Oct_2021.csv
+        
         └── Nov_2021.csv
+        
         └── Dec_2021.csv
+        
         └── Jan_2022.csv
+        
         └── Feb_2022.csv
+        
         └── Mar_2022.csv
+        
         └── Apr_2022.csv
+        
         └── May_2022.csv
+        
         └── Jun_2022.csv
+        
 │   ├── Interim        
 │       └── RDU_departures.csv
 │   └── Final            <- The final data used for modeling
