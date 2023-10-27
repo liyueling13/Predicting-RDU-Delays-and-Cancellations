@@ -21,3 +21,14 @@ Here are some plots created during EDA:
 ![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/4bd0ad6f-4d0f-475e-a16e-fdd54fc2b82c) ![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/80f77fec-8d2f-4ccc-9b7b-55e23da94f93)
 
 ## Tools and Methodology
+- Pandas to merge and clean the preliminary datasets, and perform basic feature engineering like encoding dummy variables and binning times/dates
+- Matplotlib and seaborn to visualize preliminary data
+- PowerTransformer to scale and standardize skewed time/distance features
+- SMOTE from imbalanced-learn to resample our data (we had many more on time departures than the other four categories)
+- sklearn for our train/test split, the dummy classifier, our other models including: KNN, LogReg, Random Forest, and Gradient Boosting, and RandomizedSearchCV to find the best model parameters
+
+## Modelling
+After trying four models, Random Forest performed the best with KNN as a close second. 
+![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/d038e647-aa02-4497-ac5a-db34f91517cc)
+
+The Random Forest Classifier had the following hyperparameters found through a RandomizedSearchCV: {'n_estimators': 425, 'criterion': ‘entropy’}.
