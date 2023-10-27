@@ -1,10 +1,10 @@
-# Predicting RDU Departures
+# Predicting RDU Delays and Cancellations
 
 ![image](https://user-images.githubusercontent.com/81717153/197347112-4ad1d3e0-5c47-4fca-8430-2e96f14ac547.png)
 
-Flying has always been stressful, and even more so in our post-covid world. These days it seems like flying has gotten worse: more delayed/cancelled flights, more missed connections, more lost luggage, and far worse airline customer service than previously. And flights are more expensive than ever!
+Fewer things are more stressful than flight delays and cancellations wreaking havoc on my family's travel plans. And post-covid, flying seems to have gotten exponentially worse. We experience more delayed/cancelled flights, more missed connections, more lost luggage, and far worse airline customer service than previously. And flights are more expensive than ever!
 
-I hope to alleviate at least one piece of the puzzle: delays and cancellations. I created a model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be on time, delayed by less than 1 hour, less than 2 hours, more than 2 hours, or cancelled (a multiclass classification model). 
+I created a model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be on time, delayed by less than 1 hour, less than 2 hours, more than 2 hours, or cancelled (a multiclass classification model). 
 
 Hopefully having this tool will ameliorate some of the unavoidable stress of flying! 
 
