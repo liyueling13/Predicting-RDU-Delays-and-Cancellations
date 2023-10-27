@@ -28,7 +28,12 @@ Here are some plots created during EDA:
 - sklearn for our train/test split, the dummy classifier, our other models including: KNN, LogReg, Random Forest, and Gradient Boosting, and RandomizedSearchCV to find the best model parameters
 
 ## Modelling
-After trying four models, Random Forest performed the best with KNN as a close second. 
+After trying four models, Random Forest performed the best with KNN as a close second. It had a 0.8 accuracy score, 0.72 precision, and 0.8 recall.
 ![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/d038e647-aa02-4497-ac5a-db34f91517cc)
 
 The Random Forest Classifier had the following hyperparameters found through a RandomizedSearchCV: {'n_estimators': 425, 'criterion': ‘entropy’}.
+
+## Future Work
+To create a more useful model, I would add more dates and airports. I had time and resource (computational) constraints so could not use bigger datasets. Moreover, it would make sense to collate this DOT data with other commensense features like weather forecast. Obviously ice and thunderstorms (among other things) affect flights. I could not find an API that could pull historical weather data without costly fees (the Wunderground API was taken offline in 2018 unfortunately). 
+
+Finally it would be worthwhile to try setting a threshold for positive classifications in each category. An optimal threshold could improve our model significantly, and could also clearly quantify uncertainty for travellers and travel agencies.
