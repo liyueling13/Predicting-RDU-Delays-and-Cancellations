@@ -2,13 +2,17 @@
 
 ![image](https://user-images.githubusercontent.com/81717153/197347112-4ad1d3e0-5c47-4fca-8430-2e96f14ac547.png)
 
-Fewer things are more stressful than flight delays and cancellations wreaking havoc on my family's travel plans. And post-covid, flying seems to have gotten exponentially worse. We experience more delayed/cancelled flights, more missed connections, more lost luggage, and far worse airline customer service than previously. And flights are more expensive than ever!
+## Summary
+Flying is an ordeal. You have to wrangle your whole family and your luggage to the airport, where hopefully no one and nothing gets lost; you have to perfectly time your arrival so you have a parking spot and catch the shuttle in time to make your flight; you have to pray that you don't miss your connection and get stuck in a random city overnight. Somehow post-covid, things seem to have gotten exponentially worse (and flights even more expensive).
 
-I created a model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be on time, delayed by less than 1 hour, less than 2 hours, more than 2 hours, or cancelled (a multiclass classification model). 
+In this labyrinthine logistical nightmare, flight delays and cancellations are undesireable to say the least. I created a model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be on time, delayed by less than 1 hour, less than 2 hours, more than 2 hours, or cancelled (a multiclass classification model). I hope that this tool will ameliorate some of the unavoidable stress of flying.
 
-Hopefully having this tool will ameliorate some of the unavoidable stress of flying! 
+![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/6a51d029-9588-44fc-8905-f8e1a0538d4c)
 
-# Project Organization
+
+## Data
+
+I downloaded and compiled my data from the DOT Bureau of Transportation Website. In order to 
 
 ├── LICENSE<br/>
 ├── README.md <- The top-level README for developers using this project.<br/>
