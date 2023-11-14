@@ -3,14 +3,20 @@
 ![image](https://user-images.githubusercontent.com/81717153/197347112-4ad1d3e0-5c47-4fca-8430-2e96f14ac547.png)
 
 ## Summary
-Flying is an ordeal. You have to wrangle your whole family and your luggage to the airport, where hopefully no one and nothing gets lost; you have to perfectly time your arrival so you have a parking spot and catch the shuttle in time to make your flight; you have to pray that you don't miss your connection and get stuck in a random city overnight. Somehow post-covid, things seem to have gotten exponentially worse (and flights even more expensive).
+Flying is an ordeal, even under the best circumstances:
+- You have to wrangle your whole family and your luggage to the airport, where hopefully no one and nothing gets lost;
+- You have to perfectly time your arrival so you have a parking spot and catch the shuttle in time to make your flight;
+- You have to pray that you don't miss your connection and get stuck in a random city overnight;
+- You have likely already paid hundreds, if not thousands of dollars for your flight, and if any of these setbacks occur you may have to pay even more. 
 
-In this labyrinthine logistical nightmare, flight delays and cancellations are undesireable to say the least. I created a model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be on time, delayed by less than 1 hour, less than 2 hours, more than 2 hours, or cancelled (a multiclass classification model). I hope that this tool will ameliorate some of the unavoidable stress of flying.
+Given this, flight delays and cancellations are undesireable to say the least. To avoid them, I created a multiclass classification model that predicts whether flights leaving Raleigh-Durham airport in North Carolina will be:
+- on time,
+- delayed by less than 1 hour,
+- delayed by less than 2 hours,
+- delayed by more than 2 hours,
+- or cancelled.
 
-See below: nearly 1/5 flights over this 1-year period were delayed or cancelled.
-
-![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/da0e1746-a0ba-46e3-99d2-68d3d6f54ac5)
-
+In 2021-22, nearly 1/5 of flights departing from RDU were delayed or cancelled. I hope that this tool will ameliorate some of the unavoidable stress of flying.
 
 ## Data
 
