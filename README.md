@@ -34,7 +34,7 @@ Here are some plots created during EDA:
 - sklearn for our train/test split, the dummy classifier, our other models including: KNN, LogReg, Random Forest, and Gradient Boosting, and RandomizedSearchCV to find the best model parameters
 
 ## Modelling
-After trying four models, Random Forest performed the best with KNN as a close second. It had a 0.8 accuracy score, 0.72 precision, and 0.8 recall.
+After trying four models, Random Forest performed the best with KNN as a close second. It had a 0.89 accuracy score, 0.89 precision, and 0.89 recall.
 ![image](https://github.com/liyueling13/Predicting-RDU-Delays-and-Cancellations/assets/81717153/d038e647-aa02-4497-ac5a-db34f91517cc)
 
 The Random Forest Classifier had the following hyperparameters found through a RandomizedSearchCV: {'n_estimators': 425, 'criterion': ‘entropy’}.
